@@ -1,0 +1,112 @@
+h4{
+  color:#111111 !important;
+  font-style: italic;
+}
+.myp{
+  color: #646565;
+  text-align: justify !important;
+}
+#lobby{
+	width:600px;
+	height:400px;
+}
+
+#firstlobby{
+		width:600px;
+	height:400px;
+}
+#thirdlobby{
+	width:600px;
+	height:400px;
+}
+#panorama{
+    width: 760px;
+    height: 500px;
+}
+.splide{
+	width: 760px;
+}
+.panorama-hidden{
+	display: none;
+}
+.school{
+	height:500px;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+.map-container{
+    height: 500px;
+}
+.building-title{
+  
+  color:white;
+
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 300px;
+}
+.marker-container{
+    position: absolute;
+      width: 300px;
+  height: 200px;
+    top: 130%;
+  left: 30%;
+  
+}
+.marker {
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-image: url(map-marker2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.marker:hover{
+	background-image: url(map-marker3.png);
+}
+.marker:hover  .building-title{
+  color:#c1282e;
+}
+.mycard{
+  background: #fff;
+      box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2), 0 5px 15px 0 rgba(37, 44, 97, 0.15);
+}
+
+#thumbnail-slider {
+      width: 760px;
+      height: 120px;
+    }
+    
+    /* Style the thumbnail slides */
+/*    #thumbnail-slider .splide__slide {
+      width: 100px;
+      height: 150px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+    }*/
+    
+.splide__arrow{
+
+  top: 42% !important;
+}
+.bi-map{
+  font-size: 30px;
+}
+.bi-camera{
+  font-size: 30px;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  padding: 5px 10px;
+  font-size: 7px;
+}

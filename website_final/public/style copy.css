@@ -1,0 +1,30 @@
+#lobby{
+	width:600px;
+	height:400px;
+}
+
+#firstlobby{
+		width:600px;
+	height:400px;
+}
+#thirdlobby{
+	width:600px;
+	height:400px;
+}
+#panorama{
+	width:600px;
+	height:400px;
+}
+
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+.splide__slide {
+  opacity: 0.3;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+}
